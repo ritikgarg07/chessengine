@@ -1,2 +1,6 @@
 # Editor files
 .vscode/
+engine/.settings/
+engine/bin/
+engine/.classpath
+engine/.project
