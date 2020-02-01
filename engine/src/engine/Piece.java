@@ -3,6 +3,6 @@ package engine;
 public class Piece {
 	int type;
 	Piece(int t){
-		this.type=t;
+		this.type = t;
 	}
 }
