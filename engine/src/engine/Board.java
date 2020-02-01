@@ -2,7 +2,11 @@ package engine;
 
 public class Board {
 	Piece board [];
-	Board(/*FEN*/){
-		/*tesing stash*/
+	/*
+	 * Board(FEN notation){
+	 * }
+	 */
+	Board(){
+		
 	}
 }
