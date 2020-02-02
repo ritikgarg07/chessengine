@@ -35,6 +35,7 @@ public class Board {
 	}
 	
 	public void displayBoard(){
+		System.out.println();
 		for(int row=7;row>=0;row--) {
 			System.out.print(row+1+" ");
 			for(int col=0;col<8;col++) {
@@ -51,5 +52,10 @@ public class Board {
 		for(int i=0;i<8;i++) {
 			System.out.print(" "+(char)('a'+i));
 		}
+	}
+	
+	public void updateBoard(Move move) {
+		board[move.dest] = board[move.source];
+		board[move.source] = null;
 	}
 }
