@@ -37,7 +37,7 @@ public class Piece {
 	}
 	
 	char getType() {
-		if(player.colour==Colour.WHITE) {
+		if(player.getColour()==Colour.WHITE) {
 			return this.type.getUpperChar();
 		}
 		return this.type.getLowerChar();
@@ -45,13 +45,6 @@ public class Piece {
 	
 	int getPos() {
 		return this.position;
-	}
-	
-	public static void main(String args[]) {
-		Player pl = new Player();
-		Type t= Type.BISHOP;
-		Piece p= new Piece(t,5,pl);
-		System.out.println(p.getType());
 	}
 }
 
