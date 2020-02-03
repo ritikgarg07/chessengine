@@ -1,7 +1,5 @@
 package engine;
 
-// import engine.Colour;
-
 /*	Wrapper class for each game instance
 */
 
