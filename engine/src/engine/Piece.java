@@ -1,4 +1,4 @@
-package engine;
+package engine.src.engine;
 
 enum Type{
 	PAWN('P'),BISHOP('B'),ROOK('R'),KNIGHT('N'),KING('K'),QUEEN('Q');
