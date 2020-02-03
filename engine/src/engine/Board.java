@@ -9,14 +9,6 @@ public class Board {
 	 * }
 	 */
 	Board(Player user1, Player user2){
-		if(user1.colour != Colour.WHITE){
-			this.user1 = user2;
-			this.user2 = user1;
-		}
-		else{
-			this.user1 = user1;
-			this.user2 = user2;
-		}
 		
 		for(int i=8;i<16;i++) {
 			board[i] = new Piece(Type.PAWN, i, user1);
