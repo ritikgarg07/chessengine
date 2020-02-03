@@ -5,13 +5,9 @@ package engine;
 	@getMove should also ensure the Move returned is legal
 */
 abstract class Player{
-	Colour colour;
+	final Colour colour;
 
 	Player(Colour colour){
-		this.colour = colour;
-	}
-	
-	final public void setColour(Colour colour){
 		this.colour = colour;
 	}
 	
