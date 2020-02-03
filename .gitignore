@@ -9,4 +9,4 @@ engine/.project
 engine/.gitignore
 
 # Java files
-engine/classes
+engine/classes/
