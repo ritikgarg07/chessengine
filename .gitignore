@@ -1,9 +1,12 @@
 # Editor files
 .vscode/
 
-#Eclipse files
+# Eclipse files
 engine/.settings/
 engine/bin/
 engine/.classpath
 engine/.project
 engine/.gitignore
+
+# Java files
+engine/classes
