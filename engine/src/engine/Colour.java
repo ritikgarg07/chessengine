@@ -1,4 +1,4 @@
-package engine.src.engine;
+package engine;
 
 public enum Colour{
     WHITE, BLACK

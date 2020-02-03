@@ -1,4 +1,4 @@
-package engine.src.engine;
+package engine;
 
 /*	Player is an abstract class encapsulating the functionality of the ai, user
 	getMove should return a Move object

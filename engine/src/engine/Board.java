@@ -1,4 +1,4 @@
-package engine.src.engine;
+package engine;
 
 public class Board {
 	Piece board [] = new Piece[64];

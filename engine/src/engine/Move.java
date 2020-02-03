@@ -1,4 +1,4 @@
-package engine.src.engine;
+package engine;
 /*Move represents a move on the chess board a s a pair of source and destination
  * 
  * @param source- source index in board 
